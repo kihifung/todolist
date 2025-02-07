@@ -20,6 +20,12 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  taskInput.addEventListener("keypress", (e) => {
+    if (e.key === "Enter") {
+      createTaskItem();
+    }
+  });
+
   addBtn.addEventListener("click", () => {
     console.log(createTaskItem());
   });
