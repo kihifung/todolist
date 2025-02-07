@@ -14,6 +14,12 @@ document.addEventListener("DOMContentLoaded", () => {
     taskInput.focus(); // 新增完項目之後，讓游標回到輸入框
   };
 
+  todoList.addEventListener("click", (e) => {
+    if (e.target.nodeName === "BUTTON") {
+      e.target.parentNode.remove();
+    }
+  });
+
   addBtn.addEventListener("click", () => {
     console.log(createTaskItem());
   });
