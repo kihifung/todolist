@@ -30,3 +30,9 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log(createTaskItem());
   });
 });
+// TODO 完成的項目加上完成的時間戳記
+// TODO 改成以打勾來確定完成項目
+// TODO 可以拖拉項目的排序
+// TODO 可以編輯項目
+// TODO 可以新增分類
+// TODO 已經完成的放到另一區塊

@@ -25,7 +25,20 @@ li.todo-item {
   padding: 15px 10px;
   border-bottom: 1px solid lightgray;
   font-weight: 200;
-  color: ;
+  background: #e2fcff;
+  /* color: #000; */
+}
+
+li.doneTask {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 15px 10px;
+  border-bottom: 1px solid lightgray;
+  font-weight: 200;
+  background: #666666d6;
+  color: white;
 }
 
 .item {
@@ -45,7 +58,7 @@ h1 {
   margin: 10px 0;
 }
 
-.taskSection {
+.newTask {
   display: flex;
 }
 

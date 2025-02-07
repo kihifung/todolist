@@ -12,11 +12,11 @@
   <body>
     <main class="todo-app">
       <h1>TODO List</h1>
-      <div class="taskSection">
+      <section class="newTask">
         <input type="text" id="taskInput" value="" />
         <button id="addBtn">新增</button>
-      </div>
-      <section>
+      </section>
+      <section class="taskBlock">
         <ul class="todo-list">
           <li class="todo-item">
             <span class="item">待辦事項1</span>
@@ -25,6 +25,26 @@
           <li class="todo-item">
             <span class="item">待辦事項2</span>
             <button class="closeBtn">X</button>
+          </li>
+        </ul>
+      </section>
+      <section class="tasksDone">
+        <h2>已經完成!!</h2>
+        <ul class="doneList">
+          <li class="doneTask">
+            <span class="task">已辦事項1</span>
+            <span class="finishTime"></span>
+            <button class="rollbackBtn">V</button>
+          </li>
+          <li class="doneTask">
+            <span class="task">已辦事項2</span>
+            <span class="finishTime"></span>
+            <button class="rollbackBtn">V</button>
+          </li>
+          <li class="doneTask">
+            <span class="task">已辦事項3</span>
+            <span class="finishTime"></span>
+            <button class="rollbackBtn">V</button>
           </li>
         </ul>
       </section>
